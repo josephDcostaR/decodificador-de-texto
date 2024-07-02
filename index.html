@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Projeto decodificador</title>
+  </head>
+  <body>
+    <header>
+    </header>
+
+    <main class="apresentacao" >
+      <section class="apresentacao__texto">
+        <h2 class="apresentacao__title" >Insira o Texto</h2>
+        <textarea class="apresentacao__input" id="inputText" rows="4" cols="50" placeholder="Digite o texto aqui..."></textarea>
+      </section>
+  
+      <section class="apresentacao__texto">
+        <h2 class="apresentacao__title">Resultado</h2>
+        <textarea class="apresentacao__input" id="outputText" rows="4" cols="50" placeholder="O resultado aparecerá aqui..." readonly></textarea>
+      </section>
+    </main>
+
+    <footer>
+      <section class="apresentacao__butoes">
+        <h2 class="apresentacao__title">Escolha a Ação</h2>
+        <button class="apresentacao__butoes__botao" id="encodeButton">Codificar</button>
+        <button class="apresentacao__butoes__botao"  id="decodeButton">Decodificar</button>
+        <button class="apresentacao__butoes__botao"  id="clearButton">Clear</button>
+        <button class="apresentacao__butoes__botao"  id="returnToInputText">Return</button>
+      </section>
+
+    </footer>
+    
+    <script src="./scripts/script.js" async defer></script>
+  </body>
+</html>
